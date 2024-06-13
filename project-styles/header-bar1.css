@@ -1,0 +1,95 @@
+
+div{
+    font-family: roboto;
+}
+
+
+.mid-bar{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    border-style: ;
+    height: 40px;
+    align-items: center;   
+    margin-bottom: 10px; 
+    background-color: white;
+   
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+}
+.search-bar{
+    width: 300px;
+    
+    height: 25px;
+    font-size: 18px;
+    border-width: 1px;
+}
+.search-icon{
+    width: 30px; 
+    cursor: pointer;
+}
+.profile-container{
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+}
+.profile-icon{
+    width: 25px;
+    margin-right: 7px;
+}
+.my-profile{
+    font-size: 15px;
+}
+.wishlist-container{
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.wishlist-icon{
+    width: 25px;
+    margin-right: 7px;
+}
+.my-wishlist{
+    font-size: 15px;
+}
+.cart-container{
+    display: flex;
+    cursor: pointer;
+    
+}
+.cart-icon{
+    width: 25px;
+    margin-right: 7px;
+}
+.bill{
+    font-size: 15px;
+}
+.cart-container:hover{
+    color: rgb(255,215,0);
+}
+.wishlist-container:hover{
+    color: rgb(255,215,0);
+}
+.profile-container:hover{
+    color: rgb(255,215,0);
+}
+
+.left-section, .middle-section, .right-section{
+    border-style: ;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
